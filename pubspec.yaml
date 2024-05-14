@@ -1,0 +1,46 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+  flutter_svg: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/vectors/iconpage_edit_x2.svg
+  - assets/vectors/container_x2.svg
+  - assets/vectors/iconwallet_x2.svg
+  - assets/vectors/container_2_x2.svg
+  - assets/vectors/vector_x2.svg
+  - assets/vectors/iconview_grid_x2.svg
+  - assets/vectors/icontask_list_x2.svg
+  - assets/vectors/iconbookmark_book_x2.svg
+  - assets/vectors/icongoogle_docs_x2.svg
+  - assets/vectors/home_1_x2.svg
+  - assets/vectors/vector_1_x2.svg
+  - assets/vectors/container_1_x2.svg
+  - assets/vectors/home_2_x2.svg
+  - assets/vectors/vector_3_x2.svg
+  - assets/vectors/vector_4_x2.svg
+  - assets/vectors/container_4_x2.svg
+  - assets/vectors/vector_2_x2.svg
+  - assets/vectors/home_x2.svg
+  - assets/vectors/container_3_x2.svg
+  - assets/vectors/vector_5_x2.svg
+  - assets/vectors/container_5_x2.svg
+
